@@ -1,0 +1,28 @@
+body {
+    font-family:"Courier New", Courier, monospace;
+    font-size:12px;
+}
+
+table {
+    width: 100%;
+    font-size:12px;
+}
+tr.grey {
+    background-color: #ccc;
+}
+tr.mustbezeroY td{
+    background-color: rgb(119, 119, 0);
+}
+tr.valid {
+    background-color: khaki;
+}
+td.money {
+    text-align: right;
+}
+td.money.negative {
+    color: rgb(255, 0, 0);
+}
+td.money.total {
+    font-weight: bold;
+    background-color: rgb(247, 247, 247);
+}
