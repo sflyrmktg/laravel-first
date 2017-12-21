@@ -24,3 +24,7 @@ Route::resource('methods/{method}/records','RecordsController@indexMethod');
 Route::resource('concepts','ConceptsController');
 Route::resource('concepts/{concept}/records','RecordsController@indexConcept');
 
+
+Route::auth();
+
+Route::get('/home', 'HomeController@index');
